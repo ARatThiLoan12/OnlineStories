@@ -1,0 +1,67 @@
+body{
+	width: 1000px auto;
+}
+#thanh{
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.name{
+	font-size: 30px;
+	font: Calibri;
+}
+input{
+	width: 300px;
+}
+#log{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: #67d8c1;
+	width: 300px;
+	height: 300px;
+	padding-top: 50px;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title{
+	font-size: 20px;
+	color: red;
+}
+.author{
+	font-size: 20px;
+	color: orange;
+}
+#stories{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	justify-content: space-between;
+}
+.read{
+	background-color: orange;
+	color: white;
+}
+.img{
+	width: 215px;
+	height: 322px;
+}
+.ban{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
