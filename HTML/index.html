@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title> Online Stories </title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
-	<script src="../JS/script.js" type="text/javascript" charset="utf-8" async defer></script>
+    <title> Online Stories </title>
+    <link rel="shortcut icon" href="../IMG/logo.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <script src="../JS/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
+
 <body>
-	<div id="main">
-		<div id="thanh">
-			<div>
-				<img src="../IMG/logo.png">
-				<span class="name">Đọc truyện online</span>
-			</div>
-			<div>
-				<input type="text" name="" placeholder="search story's name">
-				<img src="../IMG/search.png">
-			</div>
-		</div>
-		<div class="ban">
-			<button onclick="displayStories()">Danh sách truyện</button>
-			<button onclick="displayFavo()">Mục yêu thích</button>
-		</div>
-		<div id="myfo">
-		</div>
-		<div id="stories">
-		</div>
-	</div>
+    <div id="main">
+        <div id="thanh">
+            <div>
+                <img src="../IMG/logo.png">
+                <span class="name">Đọc truyện online</span>
+            </div>
+            <div id="search">
+                <input id="searching" type="text" name="" placeholder="search story's name">
+                <img onclick = "search()" src="../IMG/search.png">
+            </div>
+        </div>
+        <div class="ban">
+            <button onclick="displayStories()">Danh sách truyện</button>
+            <button onclick="displayFavo()">Mục yêu thích</button>
+        </div>
+        <div id="myfo" class="container">
+        </div>
+        <div id="stories">
+        </div>
+        <div id="content"></div>
+    </div>
+    <hr>
+    <div class="foot">
+        <span>Copyright © 2019 Nguyet Dinh | Truyen hay</span>
+        <div>
+            <p>Thông tin liên hệ</p>
+            <p>Email: loan.a21@student.passerellesnumeriques.org</p>
+            <p>Hotline: 0911475691</p>
+        </div>
+    </div>
 </body>
 </html>
